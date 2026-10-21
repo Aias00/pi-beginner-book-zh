@@ -1,0 +1,9 @@
+title: "从零读懂 Pi"
+subtitle: "AI 编程助手的工程入门"
+author: "Codex"
+lang: zh-CN
+date: "2026-10-20"
+identifier: "urn:uuid:3718f64d-b916-5b00-a64d-b23c4fa357c0"
+description: "面向零基础读者的 Pi 中文入门书。16 章介绍基本概念、使用方法、模型与工具循环、会话、扩展、终端界面、持久化与源码阅读，附术语表和完整练习。基于提交 16f5f0af4d85ca583d045ceb5ed6d646fcaf7761。"
+rights: "中文讲解与图示由 Codex 辅助编写。Pi 项目原作者及 MIT 许可见附录 C。"
+toc-title: "目录"

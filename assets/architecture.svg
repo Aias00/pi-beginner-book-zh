@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1120" viewBox="0 0 1400 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Pi 默认 CLI 的主要执行层次</title>
+  <desc id="desc">用户输入进入 coding-agent，再进入 agent。agent 通过 ai 调用模型，并执行文件和命令工具；tui 负责界面。Durable 是另外的运行时。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6a8f9a"/></marker>
+  </defs>
+  <rect width="1400" height="1120" rx="24" fill="#f7f8f6"/>
+  <g font-family="Hiragino Sans GB, PingFang SC, Arial Unicode MS, sans-serif" text-anchor="middle">
+    <text x="700" y="80" font-size="40" fill="#142c3c">默认 CLI：一次输入经过哪些层</text>
+    <g fill="#ffffff" stroke="#a8babf" stroke-width="2">
+      <rect x="360" y="130" width="680" height="100" rx="16"/>
+      <rect x="360" y="290" width="680" height="130" rx="16"/>
+      <rect x="360" y="495" width="680" height="130" rx="16"/>
+      <rect x="360" y="700" width="680" height="130" rx="16"/>
+      <rect x="360" y="905" width="680" height="100" rx="16"/>
+      <rect x="35" y="290" width="260" height="130" rx="16"/>
+      <rect x="1105" y="495" width="260" height="130" rx="16"/>
+    </g>
+    <g fill="#142c3c" font-size="35">
+      <text x="700" y="194">用户输入</text>
+      <text x="700" y="342">coding-agent</text>
+      <text x="700" y="550">agent</text>
+      <text x="700" y="755">ai</text>
+      <text x="700" y="970">模型服务</text>
+      <text x="165" y="345">tui</text>
+      <text x="1235" y="550">工具</text>
+    </g>
+    <g fill="#53626b" font-size="25">
+      <text x="700" y="387">配置 · 资源 · 会话 · 运行模式</text>
+      <text x="700" y="595">模型与工具之间的执行循环</text>
+      <text x="700" y="800">统一消息 · 认证 · 协议适配</text>
+      <text x="165" y="387">终端输入与显示</text>
+      <text x="1235" y="594">文件与命令</text>
+    </g>
+    <text x="700" y="1080" font-size="24" fill="#69766f">图示主干关系；Durable 是独立运行时，不在此默认路径内。</text>
+  </g>
+  <g stroke="#6a8f9a" stroke-width="4" fill="none">
+    <path d="M700 235v42" marker-end="url(#arrow)"/>
+    <path d="M700 432v50" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <path d="M700 638v50" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <path d="M700 843v50" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <path d="M348 355h-41" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <path d="M1052 560h41" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  </g>
+  <g fill="#6a8f9a">
+    <path d="M700 277l-9-16h18zM700 432l-9 16h18zM700 483l-9-16h18zM700 638l-9 16h18zM700 688l-9-16h18zM700 843l-9 16h18zM700 893l-9-16h18z"/>
+    <path d="M307 355l15-9v18zM348 355l-15-9v18zM1052 560l15-9v18zM1093 560l-15-9v18z"/>
+  </g>
+</svg>

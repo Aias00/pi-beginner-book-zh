@@ -1,0 +1,20 @@
+{
+  "epub": "pi-beginner.epub",
+  "sha256": "383ac47497f22a5320809ff1b2dc8940460080b772023c4f247c4368bd677397",
+  "epubcheck_version": "5.4.0",
+  "epubcheck_messages": 0,
+  "zip_crc": "passed",
+  "xml": "passed",
+  "manifest_and_spine": "passed",
+  "language": "zh-CN",
+  "main_chapters": 16,
+  "top_level_toc_entries": 20,
+  "internal_references_checked": 137,
+  "external_links": 94,
+  "embedded_images": 4,
+  "required_remote_resources": 0,
+  "exercise_answers": 48,
+  "manuscript_sync": "passed",
+  "website_pages": 21,
+  "website_local_references_checked": 722
+}

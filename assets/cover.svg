@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400" role="img" aria-labelledby="title desc">
+  <title id="title">从零读懂 Pi</title>
+  <desc id="desc">AI 编程助手的工程入门，面向零基础读者的中文书。</desc>
+  <rect width="1600" height="2400" fill="#f5f1e8"/>
+  <rect x="0" y="0" width="38" height="2400" fill="#d76a45"/>
+  <g fill="none" stroke="#ddd9cf" stroke-width="2">
+    <path d="M1150 0v2400M1300 0v2400M1450 0v2400"/>
+    <path d="M0 1570h1600M0 1720h1600M0 1870h1600M0 2020h1600"/>
+  </g>
+  <g font-family="Hiragino Sans GB, PingFang SC, Arial Unicode MS, sans-serif">
+    <text x="150" y="225" font-size="38" fill="#69766f" letter-spacing="6">从使用到理解，从目录到源码</text>
+    <rect x="150" y="304" width="126" height="10" fill="#d76a45"/>
+    <text x="140" y="568" font-size="145" font-weight="600" fill="#142c3c">从零读懂</text>
+    <text x="130" y="1040" font-family="Avenir Next, Helvetica, sans-serif" font-size="480" font-weight="600" letter-spacing="-32" fill="#142c3c">Pi</text>
+    <circle cx="827" cy="965" r="42" fill="#d76a45"/>
+    <text x="150" y="1200" font-size="63" fill="#142c3c">AI 编程助手的工程入门</text>
+    <text x="153" y="1293" font-size="36" fill="#53626b">基础概念 · 执行流程 · 扩展机制 · 源码阅读</text>
+    <g transform="translate(150,1530)">
+      <rect x="0" y="0" width="1300" height="345" rx="24" fill="#142c3c"/>
+      <circle cx="48" cy="42" r="9" fill="#d76a45"/>
+      <circle cx="79" cy="42" r="9" fill="#d5a66b"/>
+      <circle cx="110" cy="42" r="9" fill="#7fa99b"/>
+      <text x="55" y="139" font-size="38" fill="#b0c8cc">&gt; 请帮我理解这个工程</text>
+      <text x="55" y="233" font-family="Avenir Next, Helvetica, sans-serif" font-size="43" fill="#ffffff">prompt</text>
+      <path d="M270 219h130m-22-15 22 15-22 15" stroke="#d76a45" stroke-width="5" fill="none"/>
+      <text x="450" y="233" font-family="Avenir Next, Helvetica, sans-serif" font-size="43" fill="#ffffff">tools</text>
+      <path d="M615 219h130m-22-15 22 15-22 15" stroke="#d76a45" stroke-width="5" fill="none"/>
+      <text x="795" y="233" font-family="Avenir Next, Helvetica, sans-serif" font-size="43" fill="#ffffff">result</text>
+      <text x="55" y="303" font-size="27" fill="#9db7bb">跟着一次任务，看清模型、工具与会话怎样配合</text>
+    </g>
+    <text x="150" y="2070" font-size="35" fill="#142c3c">16 章渐进讲解 · 章末练习与参考答案</text>
+    <text x="150" y="2150" font-size="32" fill="#69766f">基于当前工程源码编写</text>
+    <text x="150" y="2283" font-size="30" fill="#69766f">中文入门版 / 2026.10</text>
+    <text x="1450" y="2283" font-size="29" fill="#69766f" text-anchor="end">Codex 编写</text>
+  </g>
+</svg>

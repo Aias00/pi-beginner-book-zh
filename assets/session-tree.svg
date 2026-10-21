@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1060" viewBox="0 0 1400 1060" role="img" aria-labelledby="title desc">
+  <title id="title">会话树与当前活动分支</title>
+  <desc id="desc">记录 A 接 B，B 分出 C 和 D。当当前位置在 D，活动路径是 A、B、D；C 仍然保存在会话中，但不自动进入当前模型请求。移动对话位置不会撤销文件修改。</desc>
+  <rect width="1400" height="1060" rx="24" fill="#f7f8f6"/>
+  <g fill="none" stroke-width="7">
+    <path d="M700 280v110M700 500L355 650" stroke="#bdc7ca"/>
+    <path d="M700 500l345 150" stroke="#d76a45"/>
+    <path d="M700 280v110" stroke="#d76a45"/>
+  </g>
+  <g font-family="Hiragino Sans GB, PingFang SC, sans-serif" text-anchor="middle">
+    <text x="700" y="80" font-size="40" fill="#142c3c">保存的全部历史 ≠ 当前模型上下文</text>
+    <g fill="#fff" stroke-width="3">
+      <rect x="400" y="160" width="600" height="120" rx="18" stroke="#d76a45"/>
+      <rect x="400" y="390" width="600" height="120" rx="18" stroke="#d76a45"/>
+      <rect x="75" y="650" width="560" height="130" rx="18" stroke="#bdc7ca"/>
+      <rect x="765" y="650" width="560" height="130" rx="18" stroke="#d76a45"/>
+    </g>
+    <g font-size="34" fill="#142c3c">
+      <text x="700" y="232">A：提出项目目标</text>
+      <text x="700" y="462">B：讨论可选方案</text>
+      <text x="355" y="710">C：尝试文件存储</text>
+      <text x="1045" y="710">D：尝试数据库</text>
+    </g>
+    <g font-size="27" fill="#69766f">
+      <text x="355" y="751">其他分支，仍然保存</text>
+      <text x="1045" y="751">当前位置</text>
+    </g>
+    <text x="700" y="890" font-size="32" fill="#d76a45">活动路径：A → B → D</text>
+    <text x="700" y="965" font-size="26" fill="#53626b">模型请求还会应用摘要等规则；切换分支不会自动回滚磁盘文件。</text>
+  </g>
+</svg>
